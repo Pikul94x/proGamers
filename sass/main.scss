@@ -129,6 +129,8 @@ header {
 		transform: translateX(-50%);
 		font-size: 30px;
 		color: $white;
+		display: block;
+		animation: bounce-top 2s infinite both;
 	}
 }
 
