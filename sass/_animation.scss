@@ -1,5 +1,4 @@
 .bounce-top {
-	display: block;
 	animation: bounce-top 2s infinite both;
 }
 
@@ -15,7 +14,6 @@
  * animation bounce-top
  * ----------------------------------------
  */
-
 @keyframes bounce-top {
 	0% {
 		transform: translateY(-45px);
@@ -33,7 +31,14 @@
 		transform: translateY(-12px);
 		animation-timing-function: ease-in;
 	}
-
+	82% {
+		transform: translateY(-6px);
+		animation-timing-function: ease-in;
+	}
+	93% {
+		transform: translateY(-4px);
+		animation-timing-function: ease-in;
+	}
 	25%,
 	55%,
 	75%,
