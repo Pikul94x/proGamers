@@ -1,6 +1,6 @@
 .bounce-top {
-  -webkit-animation: bounce-top 2s infinite both;
-          animation: bounce-top 2s infinite both;
+	-webkit-animation: bounce-top 2s infinite both;
+	animation: bounce-top 2s infinite both;
 }
 
 /* ----------------------------------------------
@@ -15,447 +15,453 @@
  * ----------------------------------------
  */
 @-webkit-keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    transform: translateY(-24px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  82% {
-    transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  25%, 55%, 75%, 87% {
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1;
-  }
+	0% {
+		transform: translateY(-45px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 1;
+	}
+	24% {
+		opacity: 1;
+	}
+	40% {
+		transform: translateY(-24px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	65% {
+		transform: translateY(-12px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	82% {
+		transform: translateY(-6px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	93% {
+		transform: translateY(-4px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	25%,
+	55%,
+	75%,
+	87% {
+		transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	100% {
+		transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+		opacity: 1;
+	}
 }
 @keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    transform: translateY(-24px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  82% {
-    transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  25%, 55%, 75%, 87% {
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1;
-  }
+	0% {
+		transform: translateY(-45px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 1;
+	}
+	24% {
+		opacity: 1;
+	}
+	40% {
+		transform: translateY(-24px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	65% {
+		transform: translateY(-12px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	82% {
+		transform: translateY(-6px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	93% {
+		transform: translateY(-4px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	25%,
+	55%,
+	75%,
+	87% {
+		transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	100% {
+		transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+		opacity: 1;
+	}
 }
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 html {
-  scroll-padding-top: 82px;
+	scroll-padding-top: 82px;
 }
 
 body {
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  background-color: #ebecf2;
+	position: relative;
+	font-family: "Montserrat", sans-serif;
+	background-color: #ebecf2;
 }
 
 h2 {
-  text-align: center;
-  text-transform: uppercase;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 nav {
-  z-index: 1;
-  transition: background-color 0.6s;
-  background-color: rgb(0, 0, 0);
-  transition: background-color 0.6s;
+	z-index: 1;
+	transition: background-color 0.6s;
+	background-color: rgb(0, 0, 0);
+	transition: background-color 0.6s;
 }
 nav .container {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .underline {
-  width: 60px;
-  height: 4px;
-  background-color: #039dff;
-  margin: 0 auto 40px;
+	width: 60px;
+	height: 4px;
+	background-color: #039dff;
+	margin: 0 auto 40px;
 }
 
 .blue-text {
-  color: #039dff;
+	color: #039dff;
 }
 
 .navbar-brand {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .navbar-brand,
 .nav-link,
 .fa-headset {
-  color: #fff;
+	color: #fff;
 }
 
 .navbar-brand:hover,
 .nav-link:hover,
 .navbar-brand:focus,
 .nav-link:focus {
-  color: #039dff;
+	color: #039dff;
 }
 
 .collapse .navbar-nav .active {
-  color: #039dff;
+	color: #039dff;
 }
 
 .fa-bars {
-  padding: 10px;
-  color: #fff;
+	padding: 10px;
+	color: #fff;
 }
 
 header {
-  color: #fff;
+	color: #fff;
 }
 header h1 {
-  font-size: 30px;
-  text-transform: uppercase;
+	font-size: 30px;
+	text-transform: uppercase;
 }
 header p {
-  font-size: 14px;
+	font-size: 14px;
 }
 header .hero-img {
-  position: relative;
-  height: 100vh;
-  background-image: url("../img/playstation-640_426.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0;
+	position: relative;
+	height: 100vh;
+	background-image: url("../img/playstation-640_426.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
 }
 header .hero-shadow {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: -10;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: -10;
 }
 header .hero-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  padding: 10px;
-  text-align: center;
-  z-index: 5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	padding: 10px;
+	text-align: center;
+	z-index: 5;
 }
 header .btn-outline-light {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 header .fa-chevron-down {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 30px;
-  color: #fff;
-  display: block;
-  -webkit-animation: bounce-top 2s infinite both;
-          animation: bounce-top 2s infinite both;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 30px;
+	color: #fff;
+	display: block;
+	-webkit-animation: bounce-top 2s infinite both;
+	animation: bounce-top 2s infinite both;
 }
 
 .aboutus i {
-  margin-top: 20px;
-  font-size: 30px;
+	margin-top: 20px;
+	font-size: 30px;
 }
 .aboutus .aboutus-card-title {
-  font-size: 18px;
-  text-transform: uppercase;
+	font-size: 18px;
+	text-transform: uppercase;
 }
 .aboutus .aboutus-card-text {
-  font-size: 14px;
+	font-size: 14px;
 }
 .aboutus .aboutus-hover:hover {
-  color: #039dff;
+	color: #039dff;
 }
 
 .aboutus-hero {
-  position: relative;
-  background-image: url("../img/technology-640_360.jpg");
-  background-position: center;
-  background-size: cover;
-  color: #ddd;
-  z-index: 0;
+	position: relative;
+	background-image: url("../img/technology-640_360.jpg");
+	background-position: center;
+	background-size: cover;
+	color: #ddd;
+	z-index: 0;
 }
 .aboutus-hero .aboutus-shadow {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: -10;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: -10;
 }
 .aboutus-hero .aboutus-hero-item {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 .aboutus-hero i {
-  font-size: 36px;
+	font-size: 36px;
 }
 .aboutus-hero .aboutus-hero-title {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 .portfolio .carousel-item {
-  position: relative;
-  height: 600px;
+	position: relative;
+	height: 600px;
 }
 .portfolio .carousel-caption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 40px 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 40px 0;
 }
 .portfolio .carousel-indicators {
-  padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 .portfolio .card {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .prices .price-box {
-  margin: 20px 10px;
-  padding: 30px;
-  background-color: #fff;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s;
+	margin: 20px 10px;
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	transition: transform 0.3s;
 }
 .prices .price-box h3 {
-  color: #039dff;
-  text-transform: uppercase;
+	color: #039dff;
+	text-transform: uppercase;
 }
 .prices .price-box span {
-  font-weight: bold;
+	font-weight: bold;
 }
 .prices .price-box i {
-  font-size: 24px;
-  padding: 0 5px;
+	font-size: 24px;
+	padding: 0 5px;
 }
 .prices .price-box button {
-  padding: 10px 20px;
-  text-transform: uppercase;
+	padding: 10px 20px;
+	text-transform: uppercase;
 }
 .prices .price-box .price-tag {
-  font-size: 30px;
-  font-weight: bold;
+	font-size: 30px;
+	font-weight: bold;
 }
 .prices .price-box:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
 .prices .price-info {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 .prices .price-info a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .team {
-  position: relative;
-  background-image: url("../img/chairs-1920_1281.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0;
+	position: relative;
+	background-image: url("../img/chairs-1920_1281.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
 }
 .team h2 {
-  color: #ddd;
+	color: #ddd;
 }
 .team .team-shadow {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: -10;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -10;
 }
 .team .card {
-  transition: transform 0.3s;
+	transition: transform 0.3s;
 }
 .team .card img {
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+	height: 300px;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 .team .card i {
-  padding: 10px;
+	padding: 10px;
 }
 .team .card:hover {
-  transform: scale(0.96);
+	transform: scale(0.96);
 }
 .team .card-title {
-  margin-bottom: 20px;
-  text-align: center;
-  text-transform: uppercase;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
 }
 .team .card-body {
-  height: 160px;
+	height: 160px;
 }
 
 .achievements i {
-  padding: 10px;
-  font-size: 48px;
-  color: #fff;
-  text-shadow: 0 0 5px #000;
+	padding: 10px;
+	font-size: 48px;
+	color: #fff;
+	text-shadow: 0 0 5px #000;
 }
 .achievements .achievements-list {
-  padding: 20px 0;
+	padding: 20px 0;
 }
 .achievements .achievement-number {
-  font-size: 22px;
+	font-size: 22px;
 }
 .achievements .achievement-text {
-  font-size: 13px;
-  text-transform: uppercase;
+	font-size: 13px;
+	text-transform: uppercase;
 }
 
 .contact {
-  position: relative;
-  background-image: url("../img/skyline-640_426.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0;
+	position: relative;
+	background-image: url("../img/skyline-640_426.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
 }
 .contact h2 {
-  color: #ddd;
-  font-weight: bold;
+	color: #ddd;
+	font-weight: bold;
 }
 .contact .underline {
-  background-color: #ddd;
+	background-color: #ddd;
 }
 .contact .contact-shadow {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 9, 27, 0.85);
-  z-index: -10;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 9, 27, 0.85);
+	z-index: -10;
 }
 .contact .contact-us {
-  display: flex;
-  align-items: center;
-  color: #fff;
+	display: flex;
+	align-items: center;
+	color: #fff;
 }
 .contact .contact-us .contact-item {
-  margin: 30px 0;
+	margin: 30px 0;
 }
 .contact .contact-us .contact-item h3 {
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 .contact .contact-us .contact-item .social-media {
-  font-size: 26px;
+	font-size: 26px;
 }
 .contact .contact-us .contact-item .social-media a {
-  padding: 10px;
-  color: #fff;
-  transition: color 0.3s;
+	padding: 10px;
+	color: #fff;
+	transition: color 0.3s;
 }
 .contact .contact-us .contact-item .social-media a:hover {
-  color: #039dff;
+	color: #039dff;
 }
 
 @media (min-width: 375px) {
-  header h1 {
-    font-size: 36px;
-  }
-  header p {
-    font-size: 16px;
-  }
+	header h1 {
+		font-size: 36px;
+	}
+	header p {
+		font-size: 16px;
+	}
 }
 @media (min-width: 768px) {
-  header h1 {
-    font-size: 42px;
-  }
-  header p {
-    font-size: 20px;
-  }
+	header h1 {
+		font-size: 42px;
+	}
+	header p {
+		font-size: 20px;
+	}
 }
 @media (min-width: 992px) {
-  nav {
-    height: 82px;
-  }
-  html {
-    scroll-padding-top: 72px;
-  }
-  .aboutus-hero {
-    background-image: url("../img/technology-1920_1080.jpg");
-  }
-  .prices .price-info {
-    font-size: 18px;
-  }
-  .contact {
-    background-image: url("../img/skyline-1920_1279.jpg");
-  }
+	nav {
+		height: 82px;
+	}
+	html {
+		scroll-padding-top: 72px;
+	}
+	.aboutus-hero {
+		background-image: url("../img/technology-1920_1080.jpg");
+	}
+	.prices .price-info {
+		font-size: 18px;
+	}
+	.contact {
+		background-image: url("../img/skyline-1920_1279.jpg");
+	}
 }
 @media (min-width: 1200px) {
-  header .hero-img {
-    background-image: url("../img/playstation-1920_1280.jpg");
-  }
-}/*# sourceMappingURL=main.css.map */
+	header .hero-img {
+		background-image: url("../img/playstation-1920_1280.jpg");
+	}
+} /*# sourceMappingURL=main.css.map */
