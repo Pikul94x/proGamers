@@ -125,7 +125,7 @@ header {
 
 	.fa-chevron-down {
 		position: absolute;
-		bottom: 50px;
+		bottom: 80px;
 		left: 50%;
 		transform: translateX(-50%);
 		font-size: 30px;
@@ -425,6 +425,13 @@ header {
 @media (min-width: 992px) {
 	nav {
 		height: 82px;
+		h1 {
+			font-size: 62px;
+		}
+
+		p {
+			font-size: 36px;
+		}
 	}
 	html {
 		scroll-padding-top: 72px;
@@ -446,6 +453,9 @@ header {
 
 @media (min-width: 1200px) {
 	header {
+		h1 {
+			font-size: 72px;
+		}
 		.hero-img {
 			background-image: url("../img/playstation-1920_1280.jpg");
 		}
